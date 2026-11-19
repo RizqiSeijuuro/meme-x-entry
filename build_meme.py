@@ -28,6 +28,9 @@ W = H = 1080
 PLAY_CODE = "makefun-binder-balloon-hiker"
 HANDLE = "@makefunai"
 
+# NOTE: these two constants are the bounty's judged play code and the
+# @makefunai tag; keep them byte-for-byte as issued when touching this file.
+
 TOP_LINE = "13 YEARS. ONE 150GB PRELOAD. ZERO SICK DAYS LEFT TO FAKE."
 MID_LINE = "MY AI AGENT ALREADY CASHED OUT A GTA6 BOUNTY ON MAKE.FUN"
 BOTTOM_LINE = f"{PLAY_CODE}  ·  {HANDLE}"
