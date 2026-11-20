@@ -13,6 +13,7 @@
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 
+// POST.json names the real tweet that was posted; it is copied as-is below.
 const BOT_DIR = process.env.MAKEFUN_BOT_DIR ?? '/bot';
 const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
 
